@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pink Vila Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;font-family:'Poppins',sans-serif;background:#fff7fb;color:#333}
+    header{background:linear-gradient(135deg,#ff4da6,#ff85c1);color:#fff;padding:30px;text-align:center}
+    .container{max-width:1100px;margin:auto;padding:20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+    .card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 8px 20px rgba(0,0,0,.08)}
+    h2{color:#ff4da6}
+    .btn{display:inline-block;margin-top:10px;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn-primary{background:#ff4da6;color:#fff}
+    .btn-whatsapp{background:#25D366;color:#fff}
+    .gallery img{width:100%;border-radius:12px}
+    iframe{width:100%;height:250px;border:0;border-radius:12px}
+    footer{background:#ff4da6;color:#fff;text-align:center;padding:15px;margin-top:30px}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pink Vila Restaurant</h1>
+  <p>Premium Dining Experience in Jaunpur</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>🍽️ Full Menu</h2>
+     <div class="grid">
+    <ul>
+        <li>1.STARTER</li>
+        <li>2.CHINES</li>
+        <li>3.BURGER/SANDWICH</li>
+        <li>4.SOUP</li>
+        <li>5.DRINKS</li>
+        <a href="https://www.zomato.com/jaunpur/pink-vila-jaunpur-locality/menu" class="btn btn-primary"></button>Explore Menu</a><br>
+    </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>⭐ Customer Reviews</h2>
+    <p>“Amazing food and ambience. Highly recommended!”</p>
+    <p>“Best restaurant in Jaunpur for family dinner.”</p>
+    <p>“Quick service and delicious taste.”</p>
+  </div>
+
+  <div class="card">
+    <h2>🛒 Order Online</h2>
+    <p>Order directly from WhatsApp:</p>
+    <a href="https://wa.me/918881868071" class="btn btn-whatsapp">Order Now</a>
+  </div>
+
+  <div class="card">
+    <h2>📸 Restaurant Gallery</h2>
+    <div class="grid gallery">
+      <img src="imags.avif">
+      <img src="image.avif">
+      <img src="image.webp">
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📍 Location</h2>
+    <iframe src="https://www.google.com/maps?q=Pink+Vila+Restaurant+Jaunpur&output=embed"></iframe>
+    <a href="https://maps.google.com/?q=Pink+Vila+Restaurant+Jaunpur" class="btn btn-primary">Open in Maps</a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Pink Vila Restaurant</p>
+</footer>
+
+</body>
+</html>
